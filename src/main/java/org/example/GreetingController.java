@@ -56,7 +56,8 @@ public class GreetingController {
 
     @PostMapping("/delete")
     public String deleteByTags(@RequestParam Long id, Map<String, Object> model) {
-        messageRepo.deleteById(id);
+        if (messageRepo.existsById(id))
+            messageRepo.deleteById(id);
         Iterable<Message> messages = messageRepo.findAll();
         model.put("messages", messages);
         return "main";
