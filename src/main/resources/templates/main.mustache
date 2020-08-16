@@ -1,0 +1,33 @@
+<html>
+
+<body>
+<div>
+    <form method="post" action="main">
+        <input type="text" name="text" placeholder="Enter a message" />
+        <input type="text" name="tag" placeholder="Tag">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div>Search by tag:</div>
+<form method="post" action="filter">
+    <input type="text" name="filter">
+    <button type="submit">Search</button>
+</form>
+
+<div>Delete by id:</div>
+<form method="post" action="delete">
+    <input type="number" name="id">
+    <button type="submit">Delete</button>
+</form>
+
+<div>List of messages</div>
+{{#messages}}
+    <div>
+    <b>{{id}}</b>
+    <span>{{text}}</span>
+    <i>{{tag}}</i>
+    </div>
+{{/messages}}
+</body>
+</html>
