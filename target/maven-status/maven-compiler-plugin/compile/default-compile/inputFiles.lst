@@ -1,0 +1,12 @@
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\controllers\FilterController.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\controllers\MainController.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\repos\MessageRepo.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\repos\UserRepo.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\Application.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\domain\Message.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\config\WebSecurityConfig.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\controllers\RegistrationController.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\controllers\DeleteController.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\domain\Role.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\domain\User.java
+D:\spring\buildingARESTfulWebService\service\src\main\java\org\example\config\MvcConfig.java
