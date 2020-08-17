@@ -2,9 +2,17 @@
 
 <body>
 <div>
+    <form action="/logout" method="post">
+        <input type="hidden" name="_csrf" value="${_csrf.token}"/>
+        <input type="submit" value="Sign Out"/>
+    </form>
+</div>
+
+<div>
     <form method="post" action="main">
         <input type="text" name="text" placeholder="Enter a message" />
         <input type="text" name="tag" placeholder="Tag">
+        <input type="hidden" name="_csrf" value="${_csrf.token}"/>
         <button type="submit">Submit</button>
     </form>
 </div>
@@ -12,6 +20,7 @@
 <div>Search by tag:</div>
 <form method="post" action="filter">
     <input type="text" name="filter">
+    <input type="hidden" name="_csrf" value="${_csrf.token}"/>
     <button type="submit">Search</button>
 </form>
 
